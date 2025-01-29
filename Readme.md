@@ -10,7 +10,7 @@ This is a simple **FastAPI-based** public API for **HNG12 Stage 0**. The API pro
 
 ## 🚀 Live API URL
 
-> **🔗 [API Base URL](https://your-render-url.onrender.com/)**  
+> **🔗 [API Base URL](https://hng12-fastapi.onrender.com)**  
 
 ---
 
@@ -25,6 +25,7 @@ This is a simple **FastAPI-based** public API for **HNG12 Stage 0**. The API pro
 ## 🛠️ Setup Instructions (Run Locally)
 
 ### **1️⃣ Clone the Repository**
+
 ```bash
 git clone https://github.com/levoski1/hng12-api.git
 cd hng12-api
@@ -39,8 +40,43 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 - The API will be available at http://127.0.0.1:8000/
 
-- URL: https://your-render-url.onrender.com/  (Replace with your actual deployed URL)
+```
+
+### **2️⃣ Clone the Repository**
+- URL: https://hng12-fastapi.onrender.com/
+
+- Response Format (200 OK)
+
+    {
+    "email": "levibliss2000@gmail.com",
+    "current_datetime": "2025-01-30T09:30:00Z",
+    "github_url": "https://github.com/levoski1/hng12-api"
+    }
+
+
+#### 📚 Example Usage
+**Using curl**
+
+- curl -X GET https://hng12-fastapi.onrender.com/
+
+**Using Python (requests)**
+
+```bash
+import requests
+
+url = "https://hng12-fastapi.onrender.com/"
+response = requests.get(url)
+print(response.json())
 
 ```
 
-### **1️⃣ Clone the Repository**
+🔗 Related Resources
+Looking to hire skilled Python Developers? Check out:
+👉[Hire Python Developers](https://hng.tech/hire/python-developers)
+
+📜 License
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+Levi Ugwoke
+[Linkdln](https:www.linkedin.com/in/levi-soromto)
