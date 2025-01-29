@@ -22,7 +22,7 @@ def get_root():
     """
     response = {
         "email": "levibliss2000@gmail.com",
-        "current_datetime": datetime.now(timezone.utc).isoformat(),
+        "current_datetime": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "github_url": "https://github.com/levoski1/hng12-api",
     }
     return response
