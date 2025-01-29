@@ -64,7 +64,7 @@ uvicorn main:app --reload
 ```bash
 import requests
 
-url = "https://hng12-fastapi.onrender.com/"
+url: "https://hng12-fastapi.onrender.com/"
 response = requests.get(url)
 print(response.json())
 
@@ -74,9 +74,10 @@ print(response.json())
 Looking to hire skilled Python Developers? Check out:
 👉[Hire Python Developers](https://hng.tech/hire/python-developers)
 
-📜 License
+📜 License: 
 This project is licensed under the MIT License.
 
-👨‍💻 Author
+👨‍💻 Author:
 Levi Ugwoke
+
 [Linkdln](https:www.linkedin.com/in/levi-soromto)
